@@ -5,7 +5,7 @@ import {getAuth} from 'firebase/auth'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyC14FVKLbH9asBXJRDSVaW-tFy8GSfauQw",
+  apiKey: process.env.FIREBASE_CLIENT_API_KEY,
   authDomain: "momentia-ed3df.firebaseapp.com",
   projectId: "momentia-ed3df",
   storageBucket: "momentia-ed3df.firebasestorage.app",
